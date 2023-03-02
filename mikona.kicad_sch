@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0832a6ea-8574-47f1-9003-2905bad71af2)
+
+  (paper "A")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 91.44) (size 45.72 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5ee3a2c7-8940-4f63-baa3-da8fb21e9af5)
+    (property "Sheetname" "Arm" (at 50.8 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "arm.kicad_sch" (at 50.8 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mikona"
+        (path "/0832a6ea-8574-47f1-9003-2905bad71af2" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 119.38 67.31) (size 40.64 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 93393bb7-e996-4344-827e-8f268bef376f)
+    (property "Sheetname" "Flyback" (at 119.38 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "flyback.kicad_sch" (at 119.38 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mikona"
+        (path "/0832a6ea-8574-47f1-9003-2905bad71af2" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 189.23 85.09) (size 39.37 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c982eda6-25f9-4015-83b2-d195eae6b53b)
+    (property "Sheetname" "IO" (at 189.23 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io.kicad_sch" (at 189.23 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mikona"
+        (path "/0832a6ea-8574-47f1-9003-2905bad71af2" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 120.65 115.57) (size 41.91 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dac63882-4bb1-477a-a861-67dcbcf8ede5)
+    (property "Sheetname" "Kick" (at 120.65 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "kick.kicad_sch" (at 120.65 155.5246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mikona"
+        (path "/0832a6ea-8574-47f1-9003-2905bad71af2" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

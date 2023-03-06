@@ -488,19 +488,11 @@
     ],
     [
       "5ee3a2c7-8940-4f63-baa3-da8fb21e9af5",
-      "Arm"
+      "Logic"
     ],
     [
       "93393bb7-e996-4344-827e-8f268bef376f",
-      "Flyback"
-    ],
-    [
-      "c982eda6-25f9-4015-83b2-d195eae6b53b",
-      "IO"
-    ],
-    [
-      "dac63882-4bb1-477a-a861-67dcbcf8ede5",
-      "Kick"
+      "Power"
     ]
   ],
   "text_variables": {

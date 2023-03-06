@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4562T-503E_MF
+D Digital Potentiometer ICs Sngl 8B NV I2C Rheo
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en544078
+$ENDCMP
+#
+#End Doc Library

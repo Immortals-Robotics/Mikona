@@ -8,4 +8,5 @@
   (lib (name "DA2034-AL")(type "KiCad")(uri "${KIPRJMOD}/libraries/DA2034-AL")(options "")(descr ""))
   (lib (name "MCP4562T-503E_MF")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCP4562T-503E_MF")(options "")(descr ""))
   (lib (name "1054291104")(type "KiCad")(uri "${KIPRJMOD}/libraries/1054291104")(options "")(descr ""))
+  (lib (name "LTST-C19HE1WT")(type "KiCad")(uri "${KIPRJMOD}/libraries/LTST-C19HE1WT")(options "")(descr ""))
 )

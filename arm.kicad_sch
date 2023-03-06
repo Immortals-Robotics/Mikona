@@ -1545,7 +1545,6 @@
     )
   )
 
-
   (junction (at 179.07 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 1e2ffc3d-d033-4e1b-9456-afc75a4de42c)
   )
@@ -3996,7 +3995,7 @@
     (property "Value" "RGB" (at 231.14 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_LiteOn_LTST-C19HE1WT" (at 228.6 106.68 0)
+    (property "Footprint" "LTST-C19HE1WT:LED_LiteOn_LTST-C19HE1WT" (at 228.6 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.6 106.68 0)

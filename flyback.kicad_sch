@@ -1582,6 +1582,58 @@
         )
       )
     )
+    (symbol "power:VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VDC" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VDC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VDC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VDC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VDC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 133.35 76.2) (diameter 0) (color 0 0 0 0)
@@ -2799,10 +2851,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 142.24 90.17 0) (unit 1)
+  (symbol (lib_id "power:VDC") (at 142.24 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 186c953c-fc01-44f0-9b70-f8e0f9bf94b6)
-    (property "Reference" "#PWR045" (at 142.24 93.98 0)
+    (property "Reference" "#PWR059" (at 142.24 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+300V" (at 142.24 86.614 0)
@@ -2818,7 +2870,7 @@
     (instances
       (project "mikona"
         (path "/0832a6ea-8574-47f1-9003-2905bad71af2/93393bb7-e996-4344-827e-8f268bef376f"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "Flyback"
@@ -3779,10 +3831,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 242.57 160.02 270) (unit 1)
+  (symbol (lib_id "power:VDC") (at 242.57 160.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ca921c1-e616-4873-b7fd-0c2881fd06dc)
-    (property "Reference" "#PWR065" (at 238.76 160.02 0)
+    (property "Reference" "#PWR065" (at 240.03 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+300V" (at 248.92 160.02 90)
@@ -4139,10 +4191,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 100.33 149.86 0) (unit 1)
+  (symbol (lib_id "power:VDC") (at 100.33 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 748446f8-e431-4f5e-a4ed-14c7dcabd8da)
-    (property "Reference" "#PWR04" (at 100.33 153.67 0)
+    (property "Reference" "#PWR045" (at 100.33 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+300V" (at 100.33 146.304 0)
@@ -4158,7 +4210,7 @@
     (instances
       (project "mikona"
         (path "/0832a6ea-8574-47f1-9003-2905bad71af2/93393bb7-e996-4344-827e-8f268bef376f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "Flyback"
@@ -4607,10 +4659,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 182.88 58.42 0) (unit 1)
+  (symbol (lib_id "power:VDC") (at 182.88 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 918f401f-0b62-4650-a925-e5fdbd9ace0d)
-    (property "Reference" "#PWR044" (at 182.88 62.23 0)
+    (property "Reference" "#PWR060" (at 182.88 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+300V" (at 182.88 54.864 0)
@@ -4626,7 +4678,7 @@
     (instances
       (project "mikona"
         (path "/0832a6ea-8574-47f1-9003-2905bad71af2/93393bb7-e996-4344-827e-8f268bef376f"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "Flyback"

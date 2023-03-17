@@ -345,7 +345,7 @@
     (uuid ff15e6f7-2826-40b5-9447-42e7585783d8)
   )
 
-  (label "CAN_P" (at 195.58 125.73 0) (fields_autoplaced)
+  (label "CAN_P" (at 195.58 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39ff516f-aea9-4326-9aee-f5506258112c)
   )
@@ -361,7 +361,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4c988ca4-4d0e-43df-978a-2af498d8794d)
   )
-  (label "CAN_N" (at 195.58 128.27 0) (fields_autoplaced)
+  (label "CAN_N" (at 195.58 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ba2e1c67-1ea5-49af-ad6d-71f9a7ce8984)
   )

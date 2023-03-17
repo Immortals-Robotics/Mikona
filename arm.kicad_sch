@@ -3961,7 +3961,7 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Pack02") (at 97.79 31.75 90) (unit 1)
+  (symbol (lib_id "Device:R_Pack02") (at 97.79 31.75 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eb77664-d672-48d4-9ac6-16c3dad37438)
     (property "Reference" "RN2" (at 97.79 29.21 90)

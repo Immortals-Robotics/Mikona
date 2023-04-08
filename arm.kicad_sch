@@ -4554,7 +4554,7 @@
     (property "Value" "MX25V1006FZUI" (at 177.8 95.25 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "MX25V1006FZUI:MX25V1006FZUI" (at 177.8 95.504 0)
+    (property "Footprint" "MX25V1006FZUI:PSON50P200X300X60-9N" (at 177.8 95.504 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 152.4 101.6 0)

@@ -28,3 +28,4 @@ fp-info-cache
 # Custom
 mikona-backups
 *.kicad_prl
+output

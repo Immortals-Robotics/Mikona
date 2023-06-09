@@ -177,6 +177,8 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
+        0.3,
         0.4,
         0.7,
         1.0
@@ -413,7 +415,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",

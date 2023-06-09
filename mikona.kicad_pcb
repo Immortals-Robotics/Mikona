@@ -866,7 +866,7 @@
     (property "Description" "RES 1K OHM 1% 1/10W 0603")
     (property "JLCPCB Comment" "1KΩ 1%")
     (property "JLCPCB Footprint" "0603")
-    (property "MPN" "RMCF0603FT1K00")
+    (property "MPN" "RC0603FR-101KL")
     (property "Sheetfile" "flyback.kicad_sch")
     (property "Sheetname" "Power")
     (property "ki_description" "Resistor, small US symbol")

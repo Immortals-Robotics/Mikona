@@ -4278,7 +4278,7 @@
     (property "Datasheet" "~" (at 154.94 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "RMCF0603FT1K00" (at 154.94 100.33 0)
+    (property "MPN" "RC0603FR-101KL" (at 154.94 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 1K OHM 1% 1/10W 0603" (at 154.94 100.33 0)

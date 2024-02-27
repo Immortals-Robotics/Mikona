@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LT3750EMSTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/LT3750EMSTR")(options "")(descr ""))
+  (lib (name "DA2034-AL")(type "KiCad")(uri "${KIPRJMOD}/libraries/DA2034-AL")(options "")(descr ""))
+  (lib (name "1054291104")(type "KiCad")(uri "${KIPRJMOD}/libraries/1054291104")(options "")(descr ""))
+)
